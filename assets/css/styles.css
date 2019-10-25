@@ -1,11 +1,54 @@
 body {
     background-color #EBEBEB;
 font-family: arial, sans-serif;
+color:#302F2F;
+}
+
+.wrapper{
+  background: #ffffff;
+  width:92%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 12px;
 }
 
 h1, h2{
-  color: #84A98C;
+  color: #99762A;
 }
+blockquote {
+  border-left: 4px solid #889AA5;
+  padding: 12px;
+  background-color: #f9f9f9;
+  margin-left: 0;
+}
+
+.image {
+  text-align: center;
+  margin: .2em 0;
+}
+
+.caption {
+  font-style: italic;
+  margin-top: 0;
+}
+
+a{
+  color: #2C465B;
+}
+
+img {
+  max-width: 100%
+  height: auto;
+}
+
+ul{
+  padding-left; 20px;
+}
+
+p {
+  line-height: 1.4em;
+}
+
 
 a {
   color: #59C3C3;
@@ -14,4 +57,4 @@ a {
 img{
 max-width: 100%;
 height: auto;
-} 
+}
