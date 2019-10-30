@@ -49,6 +49,10 @@ p {
   line-height: 1.4em;
 }
 
+header{
+  background-image: url(../images/wheat.zip);
+}
+
 a {
   color: #59C3C3;
 }
