@@ -1,0 +1,41 @@
+/*
+My colors
+ #fffee6; beige
+ #6d9d31; olive green
+ #ff8f00; orange
+
+*/
+body {
+  margin:0px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+#header {
+  background: #ffffff;
+}
+
+#header div.bar {
+  background: #ff8f00;
+  padding: 8px;
+}
+
+#header div.bar a {
+  background: #ff8f00;
+  color: #ffffff;
+  padding: 8px;
+}
+
+#content {
+  background: #ffffff;
+  padding:24px;
+}
+
+
+#footer {
+  background: #6d9d31;
+  padding:24px;
+  text-align: center;
+  color: #ffffff;
+
+}
