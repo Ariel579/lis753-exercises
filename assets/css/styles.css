@@ -23,7 +23,7 @@ blockquote {
 }
 
 .image {
-  text-align: center;
+  text-align;
   margin: .2em 0;
 }
 
@@ -50,7 +50,7 @@ p {
 }
 
 header{
-  background-image: url(../images/wheat.zip);
+  background-image: url(../images/trees.png);
 }
 
 a {
@@ -60,4 +60,28 @@ a {
 img{
 max-width: 100%;
 height: auto;
+}
+
+
+#footer {
+  background: #6d9d31;
+  padding:24px;
+  text-align: center;
+  color: #ffffff;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aside h2{
+  front-size:1.4rem;
 }
