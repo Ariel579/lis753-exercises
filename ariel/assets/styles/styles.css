@@ -8,11 +8,17 @@ body {
 	max-width: 960px;
 	padding-left: 2.275%;
 	padding-right: 2.275%;
+	background: rgb(240, 240, 240);
+	padding: 0px 8px;
+	margin-top: 0px;
 }
 /* Header */
 header {
-	text-align: center;
+	text-align: left;
+	padding: 0px 8px;
 	display: block;
+	/* [disabled]background: #ffbb33; */
+	/* [disabled]height: 32px; */
 }
 header .profileLogo .logoPlaceholder {
 	background-color: rgba(208,207,207,1.00);
@@ -33,6 +39,18 @@ header .profilePhoto {
 	width: 259px;
 	border-radius: 50%;
 	height: 259px;
+	overflow: hidden;
+	clear: both;
+}
+.float-left {
+	float: left !important;
+}
+header .profileLgog {
+	background-color: rgba(237,237,237,1.00);
+	width: 259px;
+	border-radius: 50%;
+	height: 259px;
+	overflow: hidden;
 	clear: both;
 }
 header .profileHeader h1 {
@@ -48,6 +66,10 @@ header .profileHeader h3 {
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 24px;
+}
+
+img.circle {
+	
 }
 hr {
 	background-color: rgba(208,207,207,1.00);
@@ -69,9 +91,56 @@ header .socialNetworkNavBar {
 }
 header .socialNetworkNavBar .socialNetworkNav {
 	border-radius: 50%;
+	height:148px;
+	width:148px;
 	cursor: pointer;
+	overflow: hidden;
+
 }
-header .socialNetworkNavBar .socialNetworkNav img:hover {
+
+header .socialNetworkNavBar .socialNetworkNav a {
+	border-radius: 50%;
+    height: 148px;
+    width: 148px;
+    top: 65px;
+    padding: 45% 23%;
+    position: relative;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+	overflow: hidden;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+header .socialNetworkNavBar .olive {
+	border-radius: 50%;
+	height: 148px;
+    width: 148px;
+	cursor: pointer;
+	background: rgb(183, 247, 33);
+}
+
+header .socialNetworkNavBar .lightred {
+	border-radius: 50%;
+	height: 148px;
+    width: 148px;
+	cursor: pointer;
+	background: rgb(255, 51, 85);
+}
+header .socialNetworkNavBar .lightblue {
+	border-radius: 50%;
+	height: 148px;
+    width: 148px;
+	cursor: pointer;
+	padding-top:4px;
+	background: #00E7FF;
+}
+
+header .socialNetworkNavBar .socialNetworkNav:hover {
 	opacity: 0.5;
 }
 /* Main Content sections */
@@ -84,6 +153,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
+	border-bottom: 1px solid rgba(146,146,146,1.00);
 }
 .section1 .sectionTitleRule, .section2 .sectionTitleRule {
 	margin: 0 3% 0 0;
@@ -134,7 +204,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	margin-top: 0px;
 	padding-top: 3%;
 	cursor: pointer;
-}
+}sect
 .mainContent .externalResourcesNav .externalResources:hover {
 	background-color: rgba(153,153,153,1.00);
 }
@@ -153,12 +223,32 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	margin-right: 2%;
 }
 /* Footer */
+footer {
+	display:block;
+	width: 100%;
+	height:32px;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(0, 0, 0, 0.578);
+	text-align: center;
+	background: rgba(0, 229, 255, 0.1);
+	height: 48px;
+	display:block;
+	padding:16px;
+	margin-top:24px;
+		
+	
+}
 footer .footerDisclaimer {
 	font-family: sans-serif;
 	font-size: 14px;
 	line-height: 18px;
-	color: rgba(104,103,103,1.00);
+	color: rgba(0,1.00);
 	font-weight: 700;
+	background: #00E7FF;
+	height: 48px;
+	display:block;
 }
 footer .footerDisclaimer span {
 	color: rgba(181,178,178,1.00);
@@ -187,6 +277,9 @@ header .profileLogo .logoPlaceholder {
 	display: inline-block;
 }
 header .profilePhoto {
+
+	overflow: hidden;
+	width:259px;
 	display: inline-block;
 }
 header .profileHeader {
@@ -204,8 +297,8 @@ header .socialNetworkNavBar {
 	margin-bottom: 15%;
 }
 header .socialNetworkNavBar .socialNetworkNav {
-	width: 60px;
-	height: 60px;
+	width: 148px;
+	height: 148px;
 	display: inline-block;
 	margin-right: 23px;
 }
@@ -275,8 +368,8 @@ header .profileHeader {
 	margin-top: 7%;
 }
 header .socialNetworkNavBar .socialNetworkNav {
-	width: 74px;
-	height: 74px;
+	width: 148px;
+	height: 148px;
 	display: inline-block;
 	margin-right: 23px;
 }
@@ -341,8 +434,9 @@ header .profileLogo .logoPlaceholder {
 	margin-bottom: 50px;
 }
 header .profilePhoto {
-	float: left;
+	float: none;
 	clear: both;
+	display: inline-block;
 	margin-right: 3%;
 }
 header .profileHeader {
@@ -350,8 +444,8 @@ header .profileHeader {
 	padding-top: 10%;
 }
 header .socialNetworkNavBar .socialNetworkNav {
-	width: 74px;
-	height: 74px;
+	width: 148px;
+	height: 148px;
 	display: inline-block;
 	margin-right: 23px;
 }
@@ -397,4 +491,17 @@ footer .footerNote {
 	margin-right: 3%;
 	font-family: sans-serif;
 }
+}
+.navContainer{
+	background: rgba(0, 229, 255, 0.178);
+	padding:10px;
+	margin-bottom:24px;
+		
+}
+.headernav {
+	padding: 8px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.578);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
 }
